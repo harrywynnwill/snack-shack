@@ -1,4 +1,4 @@
-# Snack shack
+# Snack shack Tech Test
 
 Hello, the competitive world of software engineering has gotten to me and I have decided to enter the world of fast food!
 

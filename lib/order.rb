@@ -3,6 +3,8 @@ class Order
   TIME_TO_SERVE = 30
   TIME_TO_MAKE = 60
 
+  attr_reader :time_placed, :time_to_make, :time_to_serve
+
   def initialize choice
     @type = choice
     @time_placed = Time.now
