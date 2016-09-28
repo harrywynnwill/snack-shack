@@ -1,9 +1,6 @@
 require "./lib/order.rb"
 class Till
 
-  TIME_TO_SERVE = 30
-  TIME_TO_MAKE = 60
-
   attr_reader :order
 
   def initialize order = Order
@@ -16,9 +13,11 @@ class Till
     @orders << @order.new(choice)
   end
 
-  def schedule
-    @orders.each {|x| x.type == 1 ? @schedule << 60 }
+  # def schedule
+  #   @orders.each { |order| if order.type == :sandwich }
+  #
+  # end
+  def order_type
 
   end
-
 end
